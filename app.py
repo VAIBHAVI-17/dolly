@@ -1,7 +1,7 @@
 import streamlit as st
 st.write("tds week 8 module")
 a=st.number_input(" enter first number")
-b=st.number_input(" enter second number")
+b=st.number_input(" enter second number", min_value=1)
 if b==0:
   st.write("not valid division")
 c=a/b
